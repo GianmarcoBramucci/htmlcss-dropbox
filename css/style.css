@@ -1,0 +1,29 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* header */
+.header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.container-header{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row-flex{
+    display: flex;
+}
+.row .header{
+	align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 28px;    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
