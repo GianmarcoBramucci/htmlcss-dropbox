@@ -17,7 +17,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 /* header */
 /* nav */
@@ -56,8 +56,8 @@ display: flex;
 .inter-conteiner-header>img{
     max-width: 539px;
     position: absolute;
-    bottom: -14%;
-    right: -5%
+    bottom: -9%;
+    right: -5% 
 }
 h1{
     font-size: 3rem; 
@@ -73,4 +73,39 @@ h1{
     padding: 4px;   
 }
 /* main */
-
+.radio-conteiner{
+    margin-top: 35px;
+}
+.radio-conteiner>span{
+    display: inline-block;
+    margin-left: 30px;
+}
+/* card */
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 215px;
+    margin-left: 20px;
+}
+.up-card{
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    width: 215px; 
+}
+.bot-card{
+    border: 2px solid gray;
+}
+.bot-card-header{
+    margin: 20px 10px;
+}
+.bot-card-header>*{
+    margin-bottom: 5px;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
